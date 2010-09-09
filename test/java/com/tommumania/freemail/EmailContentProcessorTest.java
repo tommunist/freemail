@@ -40,7 +40,7 @@ public class EmailContentProcessorTest {
         when(templatefactory.getTemplate("some filename")).thenReturn(template);
 
         processor.process(map, EmailType.HELLO_WORLD);
-        
+
         verify(template).process(eq(map), any(StringWriter.class));
     }
 

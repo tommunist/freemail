@@ -12,7 +12,6 @@ public class EmailContentProcessor {
     private EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper;
 
     public EmailContentProcessor(TemplateFactory templatefactory, EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper) {
-
         this.templatefactory = templatefactory;
         this.emailTypeToTemplateFilenameMapper = emailTypeToTemplateFilenameMapper;
     }
