@@ -9,6 +9,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
@@ -55,7 +56,11 @@ public class FreeMailerIntegrationTest {
 
         freeMailer.send(email);
 
-        assertThat("body", is(getBody(mostRecentMessage())));
+        MimeMessage message = mostRecentMessage();
+        assertThat(message.getRecipients(Message.RecipientType.TO)[0].toString(), is("test@example.com"));
+        assertThat(message.getFrom()[0].toString(), is("tom@example.com"));
+        assertThat(message.getSubject(), is("test subject"));
+        //TODO: Check body
 
     }
 

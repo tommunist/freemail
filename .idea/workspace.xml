@@ -6,21 +6,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailContentGenerator.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailContentGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailType.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/BodyPartFactory.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/BodyPartFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorIntegrationTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorIntegrationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailTypeToTemplateFilenameMapperTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailTypeToTemplateFilenameMapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMultiPartFactoryTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMultiPartFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/BodyPartFactoryTest.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/hello_world.ftl" afterPath="$PROJECT_DIR$/src/resources/hello_world-plain.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailTypeToTemplateFilenameMapper.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailTypeToTemplateFilenameMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMultiPartFactory.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMultiPartFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentGeneratorTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentGeneratorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/TemplateFactoryIntegrationTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/TemplateFactoryIntegrationTest.java" />
     </list>
     <ignored path="$USER_HOME_GRAILS$/" />
     <ignored path="$USER_HOME_GRIFFON$/" />
@@ -148,7 +141,7 @@
       <file leaf-file-name="FreeMailerIntegrationTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="20" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.4820144">
+            <state line="62" column="26" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.68345326">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,8 +191,8 @@
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/BodyPartFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/BodyPartFactory.java" />
         <option value="$PROJECT_DIR$/src/resources/hello_world-html.ftl" />
-        <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" />
+        <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -763,7 +756,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="22" width="1381" height="878" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,7 +772,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24774775" sideWeight="0.6609499" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -937,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="20" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.4820144">
+        <state line="62" column="26" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.68345326">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
