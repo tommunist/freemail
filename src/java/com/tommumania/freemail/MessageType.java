@@ -1,10 +1,10 @@
 package com.tommumania.freemail;
 
-public enum EmailType {
+public enum MessageType {
     HELLO_WORLD("hello_world");
     private String templatePrefix;
 
-    private EmailType(String templatePrefix) {
+    private MessageType(String templatePrefix) {
         this.templatePrefix = templatePrefix;
     }
 

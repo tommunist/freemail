@@ -39,10 +39,10 @@ public class MimeMultiPartFactoryTest {
         BodyPart plainTextBodyPart = mock(BodyPart.class);
         Email email = mock(Email.class);
         when(email.getContentParameters()).thenReturn(map);
-        when(email.getMessageType()).thenReturn(EmailType.HELLO_WORLD);
+        when(email.getMessageType()).thenReturn(MessageType.HELLO_WORLD);
 
-        when(bodyPartFactory.createHtmlBodyPart(map, EmailType.HELLO_WORLD)).thenReturn(htmlBodyPart);
-        when(bodyPartFactory.createPlainTextBodyPart(map, EmailType.HELLO_WORLD)).thenReturn(plainTextBodyPart);
+        when(bodyPartFactory.createHtmlBodyPart(email)).thenReturn(htmlBodyPart);
+        when(bodyPartFactory.createPlainTextBodyPart(email)).thenReturn(plainTextBodyPart);
 
         Multipart multipart = factory.generate(email);
 

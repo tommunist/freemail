@@ -16,9 +16,9 @@ public class EmailContentProcessorIntegrationTest {
 
     @Before
     public void setUp() {
-        EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper = new EmailTypeToTemplateFilenameMapper();
+        TemplateFilenameFactory templateFilenameFactory = new TemplateFilenameFactory();
         TemplateFactory templatefactory = new TemplateFactory();
-        generator = new EmailContentGenerator(templatefactory, emailTypeToTemplateFilenameMapper);
+        generator = new EmailContentGenerator(templatefactory, templateFilenameFactory);
 
     }
 
@@ -27,7 +27,7 @@ public class EmailContentProcessorIntegrationTest {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("message", "hello there matey");
 
-        String content = generator.process(map, EmailType.HELLO_WORLD, EmailFormat.PLAIN_TEXT);
+        String content = generator.process(map, MessageType.HELLO_WORLD, EmailFormat.PLAIN_TEXT);
         assertThat(content, is("Your message: hello there matey"));
     }
 

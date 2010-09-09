@@ -5,20 +5,19 @@ import freemarker.template.TemplateException;
 import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 
 import java.io.IOException;
-import java.io.StringWriter;
 import java.util.Map;
 
 public class EmailContentGenerator {
     private TemplateFactory templatefactory;
-    private EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper;
+    private TemplateFilenameFactory templateFilenameFactory;
 
-    public EmailContentGenerator(TemplateFactory templatefactory, EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper) {
+    public EmailContentGenerator(TemplateFactory templatefactory, TemplateFilenameFactory templateFilenameFactory) {
         this.templatefactory = templatefactory;
-        this.emailTypeToTemplateFilenameMapper = emailTypeToTemplateFilenameMapper;
+        this.templateFilenameFactory = templateFilenameFactory;
     }
 
-    public String process(Map<String, Object> map, EmailType emailType, EmailFormat emailFormat) throws IOException, TemplateException {
-        String templateFilename = emailTypeToTemplateFilenameMapper.map(emailType, emailFormat);
+    public String process(Map<String, Object> map, MessageType emailType, EmailFormat emailFormat) throws IOException, TemplateException {
+        String templateFilename = templateFilenameFactory.getFilename(emailType, emailFormat);
         Template template = templatefactory.getTemplate(templateFilename);
         return FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
 

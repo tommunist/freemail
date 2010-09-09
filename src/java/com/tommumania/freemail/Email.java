@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Email {
     private String recipient;
-    private EmailType messageType;
+    private MessageType messageType;
     private String sender;
     private Map<String, Object> contentParameters;
     private String subject;
@@ -13,7 +13,7 @@ public class Email {
         this.recipient = recipient;
     }
 
-    public void setMessageType(EmailType messageType) {
+    public void setMessageType(MessageType messageType) {
         this.messageType = messageType;
     }
 
@@ -29,7 +29,7 @@ public class Email {
         return recipient;
     }
 
-    public EmailType getMessageType() {
+    public MessageType getMessageType() {
         return messageType;
     }
 

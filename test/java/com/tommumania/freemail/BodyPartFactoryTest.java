@@ -32,9 +32,12 @@ public class BodyPartFactoryTest {
     @Test
     public void shouldGenerateHtmlContent() throws MessagingException, IOException, TemplateException {
         Map<String, Object> context = mock(Map.class);
+        Email email = mock(Email.class);
+        when(email.getContentParameters()).thenReturn(context);
+        when(email.getMessageType()).thenReturn(MessageType.HELLO_WORLD);
 
-        when(emailContentGenerator.process(context, EmailType.HELLO_WORLD, EmailFormat.HTML)).thenReturn("<html>content</html>");
-        BodyPart bodyPart = factory.createHtmlBodyPart(context, EmailType.HELLO_WORLD);
+        when(emailContentGenerator.process(context, MessageType.HELLO_WORLD, EmailFormat.HTML)).thenReturn("<html>content</html>");
+        BodyPart bodyPart = factory.createHtmlBodyPart(email);
 
         assertThat((String)bodyPart.getContent(), is("<html>content</html>"));
         assertThat(bodyPart.getContentType(), is("text/html"));
@@ -44,9 +47,12 @@ public class BodyPartFactoryTest {
     @Test
     public void shouldGeneratePlainTextContent() throws MessagingException, IOException, TemplateException {
         Map<String, Object> context = mock(Map.class);
+        Email email = mock(Email.class);
+        when(email.getContentParameters()).thenReturn(context);
+        when(email.getMessageType()).thenReturn(MessageType.HELLO_WORLD);
 
-        when(emailContentGenerator.process(context, EmailType.HELLO_WORLD, EmailFormat.PLAIN_TEXT)).thenReturn("content");
-        BodyPart bodyPart = factory.createPlainTextBodyPart(context, EmailType.HELLO_WORLD);
+        when(emailContentGenerator.process(context, MessageType.HELLO_WORLD, EmailFormat.PLAIN_TEXT)).thenReturn("content");
+        BodyPart bodyPart = factory.createPlainTextBodyPart(email);
 
         assertThat((String)bodyPart.getContent(), is("content"));
         assertThat(bodyPart.getContentType(), is("text/plain"));

@@ -46,7 +46,7 @@ public class FreeMailerTest {
         when(email.getRecipient()).thenReturn("to@example.com");
         when(email.getSender()).thenReturn("from@example.com");
         when(email.getSubject()).thenReturn("subject");
-        when(email.getMessageType()).thenReturn(EmailType.HELLO_WORLD);
+        when(email.getMessageType()).thenReturn(MessageType.HELLO_WORLD);
 
         when(mailSender.createMimeMessage()).thenReturn(message);
         when(multiPartFactory.generate(email)).thenReturn(multipart);

@@ -21,17 +21,17 @@ public class BodyPartFactory {
         this.emailContentGenerator = emailContentGenerator;
     }
 
-    public BodyPart createHtmlBodyPart(Map<String, Object> context, EmailType emailType) throws IOException, TemplateException, MessagingException {
+    public BodyPart createHtmlBodyPart(Email email) throws IOException, TemplateException, MessagingException {
         MimeBodyPart bodyPart = new MimeBodyPart();
-        final String html = emailContentGenerator.process(context, emailType, EmailFormat.HTML);
+        final String html = emailContentGenerator.process(email.getContentParameters(), email.getMessageType(), EmailFormat.HTML);
 
         bodyPart.setDataHandler(htmlDataHandler(html));
         return bodyPart;
     }
 
-    public BodyPart createPlainTextBodyPart(Map<String, Object> context, EmailType emailType) throws IOException, TemplateException, MessagingException {
+    public BodyPart createPlainTextBodyPart(Email email) throws IOException, TemplateException, MessagingException {
         MimeBodyPart bodyPart = new MimeBodyPart();
-        final String text = emailContentGenerator.process(context, emailType, EmailFormat.PLAIN_TEXT);
+        final String text = emailContentGenerator.process(email.getContentParameters(), email.getMessageType(), EmailFormat.PLAIN_TEXT);
                    
         bodyPart.setDataHandler(plainTextDataHandler(text));
         return bodyPart;

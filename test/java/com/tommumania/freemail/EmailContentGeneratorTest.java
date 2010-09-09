@@ -23,11 +23,11 @@ public class EmailContentGeneratorTest {
     @Mock
     private TemplateFactory templatefactory;
     @Mock
-    private EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper;
+    private TemplateFilenameFactory templateFilenameFactory;
 
     @Before
     public void setUp() {
-        generator = new EmailContentGenerator(templatefactory, emailTypeToTemplateFilenameMapper);
+        generator = new EmailContentGenerator(templatefactory, templateFilenameFactory);
 
     }
 
@@ -36,10 +36,10 @@ public class EmailContentGeneratorTest {
         Map<String, Object> map = mock(Map.class);
         Template template = mock(Template.class);
 
-        when(emailTypeToTemplateFilenameMapper.map(EmailType.HELLO_WORLD, EmailFormat.HTML)).thenReturn("template-html.ftl");
+        when(templateFilenameFactory.getFilename(MessageType.HELLO_WORLD, EmailFormat.HTML)).thenReturn("template-html.ftl");
         when(templatefactory.getTemplate("template-html.ftl")).thenReturn(template);
 
-        generator.process(map, EmailType.HELLO_WORLD, EmailFormat.HTML);
+        generator.process(map, MessageType.HELLO_WORLD, EmailFormat.HTML);
 
         verify(template).process(eq(map), any(StringWriter.class));
     }

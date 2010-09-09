@@ -17,8 +17,8 @@ public class MimeMultiPartFactory {
     public Multipart generate(Email email) throws MessagingException, IOException, TemplateException {
         MimeMultipart multipart = new MimeMultipart("alternative");
 
-        multipart.addBodyPart(bodyPartFactory.createPlainTextBodyPart(email.getContentParameters(), email.getMessageType()));
-        multipart.addBodyPart(bodyPartFactory.createHtmlBodyPart(email.getContentParameters(), email.getMessageType()));
+        multipart.addBodyPart(bodyPartFactory.createPlainTextBodyPart(email));
+        multipart.addBodyPart(bodyPartFactory.createHtmlBodyPart(email));
         return multipart;
     }
 

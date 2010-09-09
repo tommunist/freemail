@@ -5,7 +5,6 @@ import com.icegreen.greenmail.util.ServerSetupTest;
 import freemarker.template.TemplateException;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
@@ -17,7 +16,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.icegreen.greenmail.util.GreenMailUtil.getBody;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
@@ -33,7 +31,7 @@ public class FreeMailerIntegrationTest {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("localhost");
         mailSender.setPort(3025);
-        EmailContentGenerator generator = new EmailContentGenerator(new TemplateFactory(), new EmailTypeToTemplateFilenameMapper());
+        EmailContentGenerator generator = new EmailContentGenerator(new TemplateFactory(), new TemplateFilenameFactory());
         freeMailer = new FreeMailer(new MimeMultiPartFactory(new BodyPartFactory(generator)), mailSender);
     }
 
@@ -49,7 +47,7 @@ public class FreeMailerIntegrationTest {
         
         Email email = new Email();
         email.setRecipient("test@example.com");
-        email.setMessageType(EmailType.HELLO_WORLD);
+        email.setMessageType(MessageType.HELLO_WORLD);
         email.setSender("tom@example.com");
         email.setContentParameters(map);
         email.setSubject("test subject");
