@@ -11,8 +11,9 @@
       <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
       <option name="INJECTION_ANNOS">
         <value>
-          <list size="1">
-            <item index="0" class="java.lang.String" itemvalue="org.mockito.Mock" />
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="Mock" />
+            <item index="1" class="java.lang.String" itemvalue="org.mockito.Mock" />
           </list>
         </value>
       </option>

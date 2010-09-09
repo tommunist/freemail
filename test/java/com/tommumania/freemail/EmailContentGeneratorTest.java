@@ -17,8 +17,8 @@ import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
-public class EmailContentProcessorTest {
-    private EmailContentProcessor processor;
+public class EmailContentGeneratorTest {
+    private EmailContentGenerator generator;
 
     @Mock
     private TemplateFactory templatefactory;
@@ -27,7 +27,7 @@ public class EmailContentProcessorTest {
 
     @Before
     public void setUp() {
-        processor = new EmailContentProcessor(templatefactory, emailTypeToTemplateFilenameMapper);
+        generator = new EmailContentGenerator(templatefactory, emailTypeToTemplateFilenameMapper);
 
     }
 
@@ -39,7 +39,7 @@ public class EmailContentProcessorTest {
         when(emailTypeToTemplateFilenameMapper.map(EmailType.HELLO_WORLD)).thenReturn("some filename");
         when(templatefactory.getTemplate("some filename")).thenReturn(template);
 
-        processor.process(map, EmailType.HELLO_WORLD);
+        generator.process(map, EmailType.HELLO_WORLD);
 
         verify(template).process(eq(map), any(StringWriter.class));
     }

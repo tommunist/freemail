@@ -12,13 +12,13 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
 public class EmailContentProcessorIntegrationTest {
-    private EmailContentProcessor processor;
+    private EmailContentGenerator generator;
 
     @Before
     public void setUp() {
         EmailTypeToTemplateFilenameMapper emailTypeToTemplateFilenameMapper = new EmailTypeToTemplateFilenameMapper();
         TemplateFactory templatefactory = new TemplateFactory();
-        processor = new EmailContentProcessor(templatefactory, emailTypeToTemplateFilenameMapper);
+        generator = new EmailContentGenerator(templatefactory, emailTypeToTemplateFilenameMapper);
 
     }
 
@@ -27,7 +27,7 @@ public class EmailContentProcessorIntegrationTest {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("message", "hello there matey");
 
-        String content = processor.process(map, EmailType.HELLO_WORLD);
+        String content = generator.process(map, EmailType.HELLO_WORLD);
         assertThat(content, is("Your message: hello there matey"));
     }
 
