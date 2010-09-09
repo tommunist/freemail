@@ -7,12 +7,14 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import javax.mail.BodyPart;
 import javax.mail.MessagingException;
 import javax.mail.Multipart;
 import java.io.IOException;
 import java.util.Map;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.startsWith;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -23,24 +25,29 @@ public class MimeMultiPartFactoryTest {
     private MimeMultiPartFactory factory;
 
     @Mock
-    private EmailContentGenerator emailContentGenerator;
+    private BodyPartFactory bodyPartFactory;
 
     @Before
     public void setUp() throws Exception {
-        factory = new MimeMultiPartFactory(emailContentGenerator);
+        factory = new MimeMultiPartFactory(bodyPartFactory);
     }
 
     @Test
     public void shouldCreateMimeMessageFromEmail() throws IOException, TemplateException, MessagingException {
         Map<String, Object> map = mock(Map.class);
+        BodyPart htmlBodyPart = mock(BodyPart.class);
+        BodyPart plainTextBodyPart = mock(BodyPart.class);
         Email email = mock(Email.class);
+        when(email.getContentParameters()).thenReturn(map);
+        when(email.getMessageType()).thenReturn(EmailType.HELLO_WORLD);
 
-        when(emailContentGenerator.process(map, EmailType.HELLO_WORLD)).thenReturn("emailContent");
+        when(bodyPartFactory.createHtmlBodyPart(map, EmailType.HELLO_WORLD)).thenReturn(htmlBodyPart);
+        when(bodyPartFactory.createPlainTextBodyPart(map, EmailType.HELLO_WORLD)).thenReturn(plainTextBodyPart);
 
         Multipart multipart = factory.generate(email);
 
         assertThat(multipart.getContentType(), startsWith("multipart/alternative"));
-        ;
-
+        assertThat(multipart.getBodyPart(0), is(plainTextBodyPart));
+        assertThat(multipart.getBodyPart(1), is(htmlBodyPart));
     }
 }

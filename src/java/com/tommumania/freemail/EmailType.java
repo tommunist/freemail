@@ -1,15 +1,15 @@
 package com.tommumania.freemail;
 
 public enum EmailType {
-    HELLO_WORLD("hello_world.ftl");
-    private String filename;
+    HELLO_WORLD("hello_world");
+    private String templatePrefix;
 
-    private EmailType(String filename) {
-        this.filename = filename;
+    private EmailType(String templatePrefix) {
+        this.templatePrefix = templatePrefix;
     }
 
 
-    public String getFilename() {
-        return filename;
+    public String getTemplatePrefix() {
+        return templatePrefix;
     }
 }

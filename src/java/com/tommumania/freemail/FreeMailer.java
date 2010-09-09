@@ -1,6 +1,7 @@
 package com.tommumania.freemail;
 
 
+import freemarker.template.TemplateException;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
 import javax.mail.Message;
@@ -9,6 +10,7 @@ import javax.mail.Multipart;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.io.IOException;
 
 public class FreeMailer {
     private MimeMultiPartFactory multiPartFactory;
@@ -20,7 +22,7 @@ public class FreeMailer {
     }
 
 
-    public void send(Email email) throws MessagingException {
+    public void send(Email email) throws MessagingException, IOException, TemplateException {
         Multipart multipart = multiPartFactory.generate(email);
 
         MimeMessage message = mailSender.createMimeMessage();

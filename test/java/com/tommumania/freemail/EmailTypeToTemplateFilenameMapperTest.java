@@ -9,7 +9,7 @@ public class EmailTypeToTemplateFilenameMapperTest {
 
     @Test
     public void shouldMapHelloWorldTypeToCorrectFilename() {
-        assertThat(new EmailTypeToTemplateFilenameMapper().map(EmailType.HELLO_WORLD), is("hello_world.ftl"));
+        assertThat(new EmailTypeToTemplateFilenameMapper().map(EmailType.HELLO_WORLD, EmailFormat.PLAIN_TEXT), is("hello_world-plain.ftl"));
     }
 
 }

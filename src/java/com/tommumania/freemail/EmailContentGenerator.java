@@ -17,8 +17,8 @@ public class EmailContentGenerator {
         this.emailTypeToTemplateFilenameMapper = emailTypeToTemplateFilenameMapper;
     }
 
-    public String process(Map<String, Object> map, EmailType emailType) throws IOException, TemplateException {
-        String templateFilename = emailTypeToTemplateFilenameMapper.map(emailType);
+    public String process(Map<String, Object> map, EmailType emailType, EmailFormat emailFormat) throws IOException, TemplateException {
+        String templateFilename = emailTypeToTemplateFilenameMapper.map(emailType, emailFormat);
         Template template = templatefactory.getTemplate(templateFilename);
         return FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
 

@@ -1,28 +1,26 @@
 package com.tommumania.freemail;
 
-import org.springframework.mail.javamail.MimeMessageHelper;
+import freemarker.template.TemplateException;
 
-import javax.mail.Message;
+import javax.mail.MessagingException;
 import javax.mail.Multipart;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import java.io.IOException;
 
 public class MimeMultiPartFactory {
-    private EmailContentGenerator emailContentGenerator;
+    private BodyPartFactory bodyPartFactory;
 
-    public MimeMultiPartFactory(EmailContentGenerator emailContentGenerator) {
-        this.emailContentGenerator = emailContentGenerator;
+    public MimeMultiPartFactory(BodyPartFactory bodyPartFactory) {
+        this.bodyPartFactory = bodyPartFactory;
     }
 
-    public Multipart generate(Email email) {
+    public Multipart generate(Email email) throws MessagingException, IOException, TemplateException {
         MimeMultipart multipart = new MimeMultipart("alternative");
 
-        
-
+        multipart.addBodyPart(bodyPartFactory.createPlainTextBodyPart(email.getContentParameters(), email.getMessageType()));
+        multipart.addBodyPart(bodyPartFactory.createHtmlBodyPart(email.getContentParameters(), email.getMessageType()));
         return multipart;
     }
-
 
 
 }

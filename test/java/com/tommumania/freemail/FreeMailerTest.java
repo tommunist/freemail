@@ -1,5 +1,6 @@
 package com.tommumania.freemail;
 
+import freemarker.template.TemplateException;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,6 +13,7 @@ import javax.mail.MessagingException;
 import javax.mail.Multipart;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.io.IOException;
 import java.util.Map;
 
 import static org.mockito.Mockito.*;
@@ -32,7 +34,7 @@ public class FreeMailerTest {
     }
 
     @Test
-    public void shouldSendEmailToRecipient() throws MessagingException {
+    public void shouldSendEmailToRecipient() throws MessagingException, IOException, TemplateException {
 
         Email email = mock(Email.class);
 

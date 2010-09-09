@@ -27,7 +27,7 @@ public class EmailContentProcessorIntegrationTest {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("message", "hello there matey");
 
-        String content = generator.process(map, EmailType.HELLO_WORLD);
+        String content = generator.process(map, EmailType.HELLO_WORLD, EmailFormat.PLAIN_TEXT);
         assertThat(content, is("Your message: hello there matey"));
     }
 

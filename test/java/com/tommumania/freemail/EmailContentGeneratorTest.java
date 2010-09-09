@@ -36,10 +36,10 @@ public class EmailContentGeneratorTest {
         Map<String, Object> map = mock(Map.class);
         Template template = mock(Template.class);
 
-        when(emailTypeToTemplateFilenameMapper.map(EmailType.HELLO_WORLD)).thenReturn("some filename");
-        when(templatefactory.getTemplate("some filename")).thenReturn(template);
+        when(emailTypeToTemplateFilenameMapper.map(EmailType.HELLO_WORLD, EmailFormat.HTML)).thenReturn("template-html.ftl");
+        when(templatefactory.getTemplate("template-html.ftl")).thenReturn(template);
 
-        generator.process(map, EmailType.HELLO_WORLD);
+        generator.process(map, EmailType.HELLO_WORLD, EmailFormat.HTML);
 
         verify(template).process(eq(map), any(StringWriter.class));
     }

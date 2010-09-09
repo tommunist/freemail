@@ -18,6 +18,6 @@ public class TemplateFactoryIntegrationTest {
 
     @Test
     public void shouldGetTemplateForHelloWorld() {
-        templateFactory.getTemplate("hello_world.ftl");
+        templateFactory.getTemplate("hello_world-plain.ftl");
     }
 }
