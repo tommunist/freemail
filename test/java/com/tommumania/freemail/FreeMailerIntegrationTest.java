@@ -1,7 +1,6 @@
 package com.tommumania.freemail;
 
 import com.icegreen.greenmail.util.GreenMail;
-import com.icegreen.greenmail.util.ServerSetup;
 import com.icegreen.greenmail.util.ServerSetupTest;
 import org.junit.After;
 import org.junit.Before;
@@ -9,8 +8,8 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
-import javax.sound.midi.Receiver;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,7 +30,8 @@ public class FreeMailerIntegrationTest {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("localhost");
         mailSender.setPort(3025);
-        freeMailer = new FreeMailer(new MimeMessageFactory(), mailSender);
+        EmailContentGenerator generator = new EmailContentGenerator(new TemplateFactory(), new EmailTypeToTemplateFilenameMapper());
+        freeMailer = new FreeMailer(new MimeMultiPartFactory(generator), mailSender);
     }
 
     @After
@@ -41,7 +41,7 @@ public class FreeMailerIntegrationTest {
 
     @Test
     @Ignore
-    public void shouldSendHelloWorldEmailToRecipient() {
+    public void shouldSendHelloWorldEmailToRecipient() throws MessagingException {
         Map<String,Object> map = new HashMap<String,Object>();
         map.put("message", "harro, how you go??");
         
@@ -49,7 +49,7 @@ public class FreeMailerIntegrationTest {
         email.setRecipient("test@example.com");
         email.setMessageType(EmailType.HELLO_WORLD);
         email.setSender("tom@example.com");
-        email.setContentParamaters(map);
+        email.setContentParameters(map);
 
         freeMailer.send(email);
 

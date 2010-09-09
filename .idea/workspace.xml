@@ -4,38 +4,36 @@
     <list default="true" readonly="true" id="94f60d37-11be-446b-9b2a-371d06c02286" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.web.servlet-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.aspects-3.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.beans-3.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.context.support-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.beans-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.aop-3.0.3.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorIntegrationTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorIntegrationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.orm-3.0.3.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javamail-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.web.portlet-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.oxm-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.web.portlet-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.transaction-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMultiPartFactoryTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aopalliance.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cglib-nodep-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.test-3.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.jms-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.web.struts-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.jms-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.test-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.web-3.0.3.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailContentProcessor.java" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailContentGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorTest.java" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentGeneratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.spring-library-3.0.3.RELEASE.libd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMultiPartFactory.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMessageFactory.java" afterPath="" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.instrument-3.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.jdbc-3.0.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.spring-library-3.0.3.RELEASE.libd" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.expression-3.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMessageFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.jdbc-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.asm-3.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.core-3.0.3.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.context-3.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.springframework.instrument.tomcat-3.0.3.RELEASE.jar" />
     </list>
     <ignored path="$USER_HOME_GRAILS$/" />
@@ -96,10 +94,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmailContentGeneratorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentGeneratorTest.java">
+      <file leaf-file-name="MimeMultiPartFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMultiPartFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="22" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
+            <state line="20" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,39 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailContentProcessorIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorIntegrationTest.java">
+      <file leaf-file-name="MimeMultiPartFactoryTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMultiPartFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="46" selection-start="1053" selection-end="1067" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello_world.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/hello_world.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="50" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0">
+            <state line="13" column="99" selection-start="351" selection-end="351" vertical-scroll-proportion="0.34513274">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MimeMessageFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMessageFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FreeMailerIntegrationTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FreeMailerIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="11" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.7893519">
+            <state line="53" column="23" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +128,36 @@
       <file leaf-file-name="FreeMailerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="21" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+            <state line="32" column="17" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/javamail-1.4.jar!/javax/mail/Address.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/javamail-1.4.jar!/javax/mail/Message.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="16" selection-start="1387" selection-end="1387" vertical-scroll-proportion="-5.7083335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MimeMessageHelper.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/org.springframework.context.support-3.0.3.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="71" selection-start="622" selection-end="651" vertical-scroll-proportion="2.34">
               <folding />
             </state>
           </provider>
@@ -168,7 +175,7 @@
       <file leaf-file-name="FreeMailer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="31" column="31" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,16 +186,7 @@
       <file leaf-file-name="Email.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GreenMail.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/greenmail-1.3.1b.jar!/com/icegreen/greenmail/util/GreenMail.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="279" selection-end="279" vertical-scroll-proportion="-4.0">
+            <state line="24" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,22 +202,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/TemplateFactory.java" />
-        <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/resources/hello_world.ftl" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailMessagePreparator.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentProcessorTest.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/EmailContentGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailContentGenerator.java" />
-        <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMessageFactory.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/MessageFactory.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerMessageFactory.java" />
         <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailerMessageFactory.java" />
+        <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java" />
+        <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMessageFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMessageFactory.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java" />
         <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java" />
         <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMultiPartFactory.java" />
+        <option value="$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMultiPartFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -312,10 +310,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -433,6 +427,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="org.springframework.context.support-3.0.3.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javamail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freemail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freemail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="javamail-1.4.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
@@ -457,108 +481,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mail" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenmail-1.3.1b.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenmail-1.3.1b.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenmail-1.3.1b.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemarker.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.springsource.org.objenesis-1.0.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -602,91 +524,7 @@
       <recent name="$PROJECT_DIR$/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FreeMailerIntegrationTest">
-    <configuration default="false" name="TemplateFactoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="com.tommumania.freemail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="snapshooter" />
-      <module name="Freemail" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tommumania.freemail" />
-      <option name="MAIN_CLASS_NAME" value="com.tommumania.freemail.TemplateFactoryIntegrationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EmailContentProcessorIntegrationTest.shouldProcessTemplatesIntoEmailContent" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="com.tommumania.freemail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="snapshooter" />
-      <module name="Freemail" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tommumania.freemail" />
-      <option name="MAIN_CLASS_NAME" value="com.tommumania.freemail.EmailContentProcessorIntegrationTest" />
-      <option name="METHOD_NAME" value="shouldProcessTemplatesIntoEmailContent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FreeMailerIntegrationTest.shouldSendHelloWorldEmailToRecipient" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="com.tommumania.freemail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="snapshooter" />
-      <module name="Freemail" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tommumania.freemail" />
-      <option name="MAIN_CLASS_NAME" value="com.tommumania.freemail.FreeMailerIntegrationTest" />
-      <option name="METHOD_NAME" value="shouldSendHelloWorldEmailToRecipient" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.com.tommumania.freemail in Freemail">
     <configuration default="false" name="FreeMailerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -730,6 +568,90 @@
       <option name="MAIN_CLASS_NAME" value="com.tommumania.freemail.FreeMailerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MimeMultiPartFactoryTest.shouldCreateMimeMessageFromEmail" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.tommumania.freemail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="Freemail" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tommumania.freemail" />
+      <option name="MAIN_CLASS_NAME" value="com.tommumania.freemail.MimeMultiPartFactoryTest" />
+      <option name="METHOD_NAME" value="shouldCreateMimeMessageFromEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FreeMailerTest.shouldSendEmailToRecipient" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.tommumania.freemail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="Freemail" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tommumania.freemail" />
+      <option name="MAIN_CLASS_NAME" value="com.tommumania.freemail.FreeMailerTest" />
+      <option name="METHOD_NAME" value="shouldSendEmailToRecipient" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.tommumania.freemail in Freemail" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.tommumania.freemail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="Freemail" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tommumania.freemail" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -863,11 +785,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TemplateFactoryIntegrationTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EmailContentProcessorIntegrationTest.shouldProcessTemplatesIntoEmailContent" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FreeMailerIntegrationTest.shouldSendHelloWorldEmailToRecipient" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FreeMailerIntegrationTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FreeMailerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FreeMailerIntegrationTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FreeMailerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MimeMultiPartFactoryTest.shouldCreateMimeMessageFromEmail" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FreeMailerTest.shouldSendEmailToRecipient" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.com.tommumania.freemail in Freemail" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -900,9 +822,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="23" width="1381" height="878" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -959,38 +881,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/freemarker.jar!/freemarker/template/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="1738" selection-end="1738" vertical-scroll-proportion="-15.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/TemplateFactoryIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/TemplateFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailTypeToTemplateFilenameMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/EmailType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="12" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
@@ -1039,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/org.springframework.context.support-3.0.3.RELEASE.jar!/org/springframework/mail/MailException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="79" selection-start="148" selection-end="148" vertical-scroll-proportion="-1.5">
@@ -1053,35 +936,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javamail-1.4.jar!/javax/mail/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="16" selection-start="1387" selection-end="1387" vertical-scroll-proportion="-5.7083335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javamail-1.4.jar!/javax/mail/Address.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/FreeMailer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="31" column="31" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMessageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="11" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.7893519">
+        <state line="53" column="23" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/tommumania/freemail/MimeMultiPartFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/org.springframework.context.support-3.0.3.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="71" selection-start="622" selection-end="651" vertical-scroll-proportion="2.34">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/FreeMailerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/com/tommumania/freemail/MimeMultiPartFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="99" selection-start="351" selection-end="351" vertical-scroll-proportion="0.34513274">
+          <folding />
         </state>
       </provider>
     </entry>

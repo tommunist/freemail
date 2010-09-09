@@ -6,7 +6,8 @@ public class Email {
     private String recipient;
     private EmailType messageType;
     private String sender;
-    private Map<String, Object> contentParamaters;
+    private Map<String, Object> contentParameters;
+    private String subject;
 
     public void setRecipient(String recipient) {
         this.recipient = recipient;
@@ -20,7 +21,27 @@ public class Email {
         this.sender = sender;
     }
 
-    public void setContentParamaters(Map<String, Object> contentParamaters) {
-        this.contentParamaters = contentParamaters;
+    public void setContentParameters(Map<String, Object> contentParameters) {
+        this.contentParameters = contentParameters;
+    }
+
+    public String getRecipient() {
+        return recipient;
+    }
+
+    public EmailType getMessageType() {
+        return messageType;
+    }
+
+    public String getSender() {
+        return sender;
+    }
+
+    public Map<String, Object> getContentParameters() {
+        return contentParameters;
+    }
+
+    public String getSubject() {
+        return subject;
     }
 }
